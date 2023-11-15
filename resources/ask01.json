@@ -1,0 +1,113 @@
+{
+  "arguments": [
+    {
+      "source": "cib",
+      "optionsSets": [
+        "nlu_direct_response_filter",
+        "deepleo",
+        "disable_emoji_spoken_text",
+        "responsible_ai_policy_235",
+        "enablemm",
+        "dv3sugg",
+        "iyxapbing",
+        "iycapbing",
+        "h3precise",
+        "clgalileo",
+        "gencontentv3"
+      ],
+      "allowedMessageTypes": [
+        "ActionRequest",
+        "Chat",
+        "ConfirmationCard",
+        "Context",
+        "InternalSearchQuery",
+        "InternalSearchResult",
+        "Disengaged",
+        "InternalLoaderMessage",
+        "InvokeAction",
+        "Progress",
+        "RenderCardRequest",
+        "RenderContentRequest",
+        "AdsQuery",
+        "SemanticSerp",
+        "GenerateContentQuery",
+        "SearchQuery"
+      ],
+      "sliceIds": [
+        "gbaa",
+        "gba",
+        "gbapa",
+        "bggpt",
+        "caccnctat1",
+        "errorhandle",
+        "styleoffall",
+        "rwcf",
+        "713logprobss0",
+        "1024noarchive",
+        "119wcphi",
+        "1113gldcl1s0",
+        "10312tlocrets0",
+        "plgbd2",
+        "727nrprdrt7",
+        "727nrprdrt3"
+      ],
+      "verbosity": "verbose",
+      "scenario": "SERP",
+      "plugins": [],
+      "traceId": "65547013f531441b9670c4d7b53109b5",
+      "conversationHistoryOptionsSets": [
+        "autosave",
+        "savemem",
+        "uprofupd",
+        "uprofgen"
+      ],
+      "isStartOfSession": true,
+      "requestId": "1af12330-0a5e-52b8-f399-dd33905f2a6c",
+      "message": {
+        "locale": "en-US",
+        "market": "en-US",
+        "region": "US",
+        "location": "lat:47.639557;long:-122.128159;re=1000m;",
+        "locationHints": [
+          {
+            "SourceType": 1,
+            "RegionType": 2,
+            "Center": {
+              "Latitude": 21.283700942993164,
+              "Longitude": -157.7978057861328
+            },
+            "Radius": 24902,
+            "Name": "Honolulu, Hawaii",
+            "Accuracy": 24902,
+            "FDConfidence": 0.8999999761581421,
+            "CountryName": "United States",
+            "CountryConfidence": 9,
+            "Admin1Name": "Hawaii",
+            "PopulatedPlaceName": "Honolulu",
+            "PopulatedPlaceConfidence": 9,
+            "PostCodeName": "96816",
+            "UtcOffset": -10,
+            "Dma": 744
+          }
+        ],
+        "userIpAddress": "66.75.89.81",
+        "timestamp": "2023-11-14T21:15:27-10:00",
+        "author": "user",
+        "inputMethod": "Keyboard",
+        "text": "是什么事PopulatedPlaceName",
+        "messageType": "Chat",
+        "requestId": "1af12330-0a5e-52b8-f399-dd33905f2a6c",
+        "messageId": "1af12330-0a5e-52b8-f399-dd33905f2a6c"
+      },
+      "tone": "Precise",
+      "spokenTextMode": "None",
+      "conversationId": "51D|BingProd|1F832F5F6CFA365B0966C676BB3B9FD4A0DD116D86EFF7F22C7448ADC292CD67",
+      "participant": {
+        "id": "985155416400228"
+      }
+    }
+  ],
+  "invocationId": "0",
+  "target": "chat",
+  "type": 4
+}
